@@ -65,6 +65,72 @@ const app = {
             singer: ' Wxrdie x Bình Gold x 2pillz x V.A',
             path: './assets/music/Emiu.mp3',
             image: './assets/img/emiu.jpg'
+        },         
+        {
+            name:'Vinflow',
+            singer: 'Wxrdie',
+            path: './assets/music/Vinflow.mp3',
+            image: './assets/img/Vinflow.jpg'
+        },
+        {
+            name:'Người miền núi chất',
+            singer: 'Double2T',
+            path: './assets/music/Nguoimiennuichat.mp3',
+            image: './assets/img/Nguoimiennuichat.jpg'
+        },
+        {
+            name:'Anh không cố ý ',
+            singer: 'Orenus x Limitlxss',
+            path: './assets/music/Anhkhongcoy.mp3',
+            image: './assets/img/Anhkhongcoy.jpg'
+        },
+        {
+            name:'Nàng',
+            singer: 'Orenus',
+            path: './assets/music/Nang.mp3',
+            image: './assets/img/Nang.jpg'
+        },
+        {
+            name:'Cưới thôi',
+            singer: 'Masew x Bray x TAP',
+            path: './assets/music/Cuoithoi.mp3',
+            image: './assets/img/Cuoithoi.jpg'
+        },
+        {
+            name:'Nụ hôn bisou',
+            singer: 'Mikelodic',
+            path: './assets/music/Nuhonbisou.mp3',
+            image: './assets/img/Nuhonbisou.jpg'
+        },
+        {
+            name:'Ái Nộ',
+            singer: 'Masew x Khôi Vũ',
+            path: './assets/music/Aino.mp3',
+            image: './assets/img/Aino.jpg'
+        },
+        {
+            name:'Mời Trầu',
+            singer: 'Masew x tuấn Cry',
+            path: './assets/music/Moitrau.mp3',
+            image: './assets/img/Moitrau.jpg'
+        },
+        {
+            name:'Ông bà già tao lo hết',
+            singer: 'Bình GOLD',
+            path: './assets/music/Ongbagiataolohet.mp3',
+            image: './assets/img/Ongbagiataolohet.jpg'
+        },
+        {
+            name:'Quan tài hư',
+            singer: 'Quang Tèo',
+            path: './assets/music/Quantaihu.mp3',
+            image: './assets/img/Quantaihu.jpg'
+        },
+        {
+            name:'Hành lang cũ',
+            singer: 'Long nóng lá x  Masew',
+            path: './assets/music/Hanhlangcu.mp3',
+            image: './assets/img/Hanhlangcu.jpg'
         },
         {
             name:'Quan hệ rộng',
@@ -72,6 +138,7 @@ const app = {
             path: './assets/music/Quanherong.mp3',
             image: './assets/img/quanherong.jpg'
         },
+       
         
         
     ],
