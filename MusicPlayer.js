@@ -73,6 +73,7 @@ const app = {
             image: './assets/img/quanherong.jpg'
         },
         
+        
     ],
     setConfig: function(key, value) {
         this.config[key] = value;
