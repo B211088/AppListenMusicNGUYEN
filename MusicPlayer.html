@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./MusicPlayer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="player">
+        <div class="wrap">
+            <div class="container">
+                <div class="dashboard">
+                    <div class="heading">
+                        <p class="now-playing">Now playing:</p>
+                        <h2 class="title-music"></h2>
+                    </div>
+                    <div class="disk-music">
+                        <img class="disk-music-img" src="./assets/img/Aloi.jpg" alt="">
+                    </div>
+                    <div class="music-option">
+                        <div class="repeat-music"><i class="fa-solid fa-rotate-left"></i></div>
+                        <div class="prev-music"><i class="fa-solid fa-backward"></i></div>
+                        <div class="play-music">
+                            <i class="fa-solid fa-play play-icon"></i>
+                            <i class="fa-solid fa-pause pause-icon none"></i>
+                        </div>
+                        <div class="next-music"><i class="fa-solid fa-forward"></i></div>
+                        <div class="random-music"><i class="fa-solid fa-shuffle"></i></div>
+                    </div>
+                    <audio id="audio" src=" " option type="audio/mpeg">
+                    </audio>
+                <input class="music-time-line" id="progress" type="range" value="0" step="1" min="0" max="100" >
+                <div class="volume-block">
+                    <div class="icon-volume-block">
+                        <i class="fa-solid fa-volume-high volume-icon icon-volume-contain "></i>
+                        <i class="fa-solid fa-volume-xmark volume-icon icon-volume-muted none"></i>
+                    </div>
+                   
+                    <input class="music-volume" type="range" id="volume-song" value="100" step="1" min="0" max="100">
+                </div>
+                </div>
+                <div class="playlist">
+                  
+                </div>
+        </div>
+       
+
+    </div>
+
+
+    <script src="./MusicPlayer.js"></script>
+</body>
+</html>

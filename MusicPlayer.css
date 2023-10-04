@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.none{
+    display: none !important;
+}
+
+.active{
+    color: rgb(255, 47, 47);
+}
+
+.active-song{
+    background-color: #fd6969 !important;
+    color: #fff;
+}
+
+.wrap{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-image: url('https://wallpaperaccess.com/full/3097725.jpg');
+}
+
+
+.player{
+    width: 100%;
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width:380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.container{
+    overflow-y: scroll ;
+    scroll-behavior: smooth;
+    
+    }
+  
+.container::-webkit-scrollbar {
+    width: 0;
+}
+
+.dashboard{
+    position: fixed;
+    top:  0;
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    background-color: #fff;
+}
+
+
+    
+
+.heading{
+    text-align: center;
+    word-wrap: break-word;
+    padding: 20px 0;
+    padding: 0 20px;
+    margin: 15px 0;
+}
+
+.now-playing{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: rgb(255, 29, 29);
+}
+
+.title-music{
+    margin-top: 10px;
+   
+}
+
+.disk-music{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+
+
+}
+.disk-music-img{
+    width: 100%; 
+    height: 100%;  
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.music-option{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.play-music{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 67, 67);
+    border-radius: 50%;
+    color: #fff;
+}
+
+
+
+.line{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(243, 83, 83);
+    border-radius: 2px;
+}
+
+.playlist{
+    margin-top: 441px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: rgb(232, 232, 232);
+    padding: 20px 10px; 
+
+
+}
+
+.song{
+    width: 100%;
+    height: 76px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    background-color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.song:active{
+    opacity: 0.8;
+}
+
+.thumb{
+    width: 45px;
+    height: 45px;
+}
+
+
+.thumb img{
+    width: 100%; 
+    height: 100%;  
+    border-radius: 50%; 
+    object-fit: cover;
+}
+
+.body{
+    flex: 1;
+    padding: 0 20px;
+
+}
+
+.title{
+    font-size: 1rem;
+}
+
+.author{
+    font-size: 0.8rem;
+}
+
+.option{
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+.option i{
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.music-time-line {
+    width: 100%;
+    -webkit-appearance: none;
+    height: 6px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    border-radius: 3px;
+  }
+  
+  .music-time-line::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 6px;
+    background-color: rgb(247, 64, 101);
+    cursor: pointer;
+    border-radius: 3px;
+  }
+.volume-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: start;
+    margin-top: 15px;
+    margin-left: 24px;
+}
+.volume-icon{
+    color: #696969;
+    width: 24px;
+    font-size: 1.2rem;
+    transition: opacity 0.2s;
+}
+
+.volume-icon:hover{
+    color: #000000;
+}
+
+.icon-volume-block{
+    margin-right: 10px;
+}
+
+.music-volume{
+    background-color: #d3d3d3;
+    width: 80px;
+    height: 6px;
+    border-radius: 3px;
+    -webkit-appearance: none;
+    -webkit-transition: 0.2s;
+    transition: opacity 0.2s;
+    margin-left: 5px;
+}
+
+.music-volume::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 6px;
+    background-color: rgb(131, 131, 131);
+    cursor: pointer;
+    border-radius: 3px;
+  }
